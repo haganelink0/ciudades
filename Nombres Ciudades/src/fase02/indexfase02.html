@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JS fase02</title>
+</head>
+<body>
+<p id="display"></p>
+<script>
+arrayCiutats = [];
+
+for (let i = 0; i < 6; i++) {
+	
+	let ciudad = prompt("introduzca ciudad:");
+	arrayCiutats.push(ciudad);
+}
+
+arrayCiutats.sort();
+document.getElementById("display").innerHTML = arrayCiutats;
+</script>
+</body>
+</html>
